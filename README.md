@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://disordered-photonics.github.io/celes/readme_logo.svg", height="150">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/Promotion1.svg", height="150">
 </p>
 
 ## CELES
