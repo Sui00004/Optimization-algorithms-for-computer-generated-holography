@@ -2,7 +2,7 @@
 <img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/CGH.jpg", height="400">
 </p>
 
-## CELES
+## CGH Optimization
 > CUDA-accelerated Electromagnetic scattering for Large Ensembles of Spheres
 
 CELES (latin for 'fast ship') is a MATLAB/CUDA MEX implementation of the multi-sphere T-matrix method (also known as Generalized Multiparticle Mie method).
