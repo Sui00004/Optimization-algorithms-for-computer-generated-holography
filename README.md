@@ -10,7 +10,7 @@ CELES (latin for 'fast ship') is a MATLAB/CUDA MEX implementation of the multi-s
 The main aim of the software is to rigorously solve electrodynamic problems comprising extremely large numbers of spherical scatterers. As such, it can be applied to study light propagation in macroscopic aggregates of particles in order to derive their bulk transport properties.
 
 <p align="center">
-<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2_Frameworks.jpg", height="250">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2_Frameworks.jpg", height="230">
 </p>
 
 If you use CELES, please cite it as follows:
