@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/1_CGH.jpg", height="300">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/1_CGH.jpg", height="250">
 </p>
 
 ## CGH Optimization
