@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Promotion1.svg", height="400">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/CGH.jpg", height="400">
 </p>
 
 ## CELES
