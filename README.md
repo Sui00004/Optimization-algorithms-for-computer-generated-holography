@@ -81,6 +81,8 @@ The flexibility of the optimization frameworks also brings with it a diversity o
      - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main7_Sequential3D_Angularspectrum_CH.m)]
      - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main8_Sequential3D_Angularspectrum_POH.m)]
 
+In our demonstration, the 512×512 holograms are equally computed on a PC with an Intel Core i9-9900K 3.6 GHz CPU and 32.0 GB of RAM, and an NVIDIA GeForce RTX 2080Ti GPU. Two diffractive propagation methods including the FFT and ASM are compared, where the propagation distance of ASM is 50 mm. 
+
 <p align="center">
 <img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/3D_optimization.jpg", height="300">
 </p>
