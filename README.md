@@ -17,8 +17,10 @@ Codes to achive hologram sythesis with these optmization frameworks is provided 
 
 > Sui X, He Z, Chu D, & Cao L. Non-convex Optimization for Inverse Problem Solving in Computer-generated Holography. Light: Science & Applications, 29(2), 2597-2612 (2024) pp. 103-110. [[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-2-2597&id=446599)] [[bibtex](Inverse_CGH.bib)]
 
-### Features
-CELES is written in MATLAB in order to provide a user-friendly, fully scriptable interface to configure and run simulations. Its prominent features are
+Here is the instruction on functional hologram sythesis using different frameworks.
+
+### Alternative projections
+Alternative projections can be achieved by a pair of elementary projections repeatedly occurring in the optimization, which construct an iterative computation loop. Specially for CGH, alternating projections are applied to two enclosed sets associated with potential object solutions and potential hologram solutions. 
 
 * massively parallel execution on CUDA-capable NVIDIA GPU hardware
 * block-diagonal preconditioning for faster convergence of iterative solvers
