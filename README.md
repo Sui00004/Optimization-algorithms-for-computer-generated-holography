@@ -24,12 +24,13 @@ Alternative projections can be achieved by a pair of elementary projections repe
 
 * Gerchberg-Saxton (GS) algorithm: [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main1_GS_2D_FFT_POH.m)]
 * Iterative Fourier-transform algorithm (IFTA): [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main2_IFTA_2D_FFT_POH.m)], [[2D optmization with signal windows (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main3_IFTA_2D_signalwindow_FFT_2D_POH.m)], [[2D optmization with soft encoding (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main4_IFTA_2D_soft_encoding_FFT_2D_POH.m)].
-* Iterative algorithm for angular spectrum theory:  [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main5_IFTA_2D_Angularspectrum_CH.m)], [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main6_IFTA_2D_Angularspectrum_POH.m)].
+* Iterative algorithm with angular spectrum theory:  [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main5_IFTA_2D_Angularspectrum_CH.m)], [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main6_IFTA_2D_Angularspectrum_POH.m)].
 
-### Stochastic gradient descent
-In order to run CELES, the following software (in addition to MATLAB) should be installed on your system:
-* the [CUDA toolkit](https://developer.nvidia.com/cuda-downloads) matching the `ToolkitVersion` specified when running `gpuDevice` in MATLAB.
-* a [C++ compiler](https://it.mathworks.com/support/compilers.html) which is supported by MATLAB in combination with the given CUDA version.
+### First-order gradient descent
+The inverse problem of hologram synthesis in CGH can also be cast as the optimization of a parameterized objective function requiring minimization with respect to its parameters. Since the choice of the objective function is often stochastic and differentiable with respect to its parameters, stochastic gradient descent (SGD) is considered as an efficient and effective first-order gradient descent framework for optimization. 
+
+* Stochastic gradient descent (SGD) with single Fourier-transform propagation: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main2_SGD_2D_FFT_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main1_SGD_2D_FFT_POH.m)] 
+* Stochastic gradient descent (SGD) with angular spectrum theory: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main4_SGD_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main3_SGD_2D_Angularspectrum_POH.m)]
 
 
 
