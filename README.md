@@ -86,7 +86,7 @@ The flexibility of the optimization frameworks also brings with it a diversity o
 
 
 <p align="center">
-<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/3D_optimization.jpg", height="300">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/3D_optimization.jpg", height="400">
 </p>
 
 ### Questions and feedbacks
