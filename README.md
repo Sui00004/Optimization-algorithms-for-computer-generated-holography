@@ -49,6 +49,10 @@ The second-order gradient descent is implemented by the quasi-Newton method here
    * [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)]
    * [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
 
+<p align="center">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2D_optimization.jpg", height="300">
+</p>
+
 ### Optmization for 3D holograms
 The flexibility of the optimization frameworks also brings with it a diversity of pipelines for the hologram synthesis of 3D objects. Many diffractive propagation models are applicable for volumetric optimization. Here, for a better illustration of different optimization pipelines, we unify them into the band-limited ASM.
 
@@ -76,6 +80,10 @@ The flexibility of the optimization frameworks also brings with it a diversity o
    * Alternating projections:
      - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main7_Sequential3D_Angularspectrum_CH.m)]
      - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main8_Sequential3D_Angularspectrum_POH.m)]
+
+<p align="center">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/3D_optimization.jpg", height="300">
+</p>
 
 ### Questions and feedbacks
 
