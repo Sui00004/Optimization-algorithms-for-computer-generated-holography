@@ -79,5 +79,5 @@ The flexibility of the optimization frameworks also brings with it a diversity o
 
 ### Questions and feedbacks
 
-If you have questions, bug reports or feature requests, please use the [Issues](https://github.com/disordered-photonics/celes/issues) section to report them.
+If you have questions, bug reports or feature requests, please use the [Issues](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/issues) section to report them.
 
