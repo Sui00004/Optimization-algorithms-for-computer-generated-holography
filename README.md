@@ -22,8 +22,8 @@ Here is the instruction on functional hologram sythesis using different framewor
 ### Alternative projections
 Alternative projections can be achieved by a pair of elementary projections repeatedly occurring in the optimization, which construct an iterative computation loop. Specially for CGH, alternating projections are applied to two enclosed sets associated with potential object solutions and potential hologram solutions. 
 
-* Gerchberg-Saxton (GS) algorithm: 2D optmization [[phase-only hologram ](Alternative projection/Main1_GS_2D_FFT_POH.m)]
-* Iterative Fourier-transform algorithm (IFTA): 2D optmization [[phase-only hologram ](Alternative projection/Main2_IFTA_2D_FFT_POH.m)]
+* Gerchberg-Saxton (GS) algorithm: 2D optmization [[phase-only hologram](Main1_GS_2D_FFT_POH.m)]
+* Iterative Fourier-transform algorithm (IFTA): 2D optmization [[phase-only hologram](Main2_IFTA_2D_FFT_POH.m)]
 * lookup-table approach to evaluate spherical Hankel functions
 * rich output (power flux, near- and far-field distributions)
 * Gaussian beam excitation
