@@ -7,17 +7,15 @@
 
 Computer-generated holography (CGH) involves computationally generating a hologram and optically reconstructing an object's wavefront, which provides an approach to digitally modulate a volumetric wavefront. 
 
-Computer-generated holograms can be encoded on various types of holographic media, including diffractive optical elements (DOEs), metasurfaces, and spatial light modulators (SLMs). Even so, the algorithms for hologram synthesis can be universally applied. Existing optimization frameworks applied to CGH can be conlcluded with following categories: alternative projections, the first-order gradient descent, and the second-order gradient descent.
+Computer-generated holograms can be encoded on various types of holographic media, including diffractive optical elements, metasurfaces, and spatial light modulators. Even so, the algorithms for hologram synthesis can be universally applied. Existing optimization frameworks applied to CGH can be conlcluded with following categories: alternative projections, the first-order gradient descent, and the second-order gradient descent.
 
 <p align="center">
 <img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2_Frameworks.jpg", height="230">
 </p>
 
-If you use CELES, please cite it as follows:
+Codes to achive hologram sythesis with these optmization frameworks is provided here. If you use any of them, please cite it as follows:
 
-> Egel A, Pattelli L, Mazzamuto G, Wiersma DS, and Lemmer U.
-_CELES: CUDA-accelerated simulation of electromagnetic scattering by large ensembles of spheres_,
-Journal of Quantitative Spectroscopy and Radiative Transfer 199C (2017) pp. 103-110. [[link](https://doi.org/10.1016/j.jqsrt.2017.05.010)] [[bibtex](doc/celes.bib)]
+> Sui X, He Z, Chu D, & Cao L. Non-convex Optimization for Inverse Problem Solving in Computer-generated Holography. Light: Science & Applications, 29(2), 2597-2612 (2024) pp. 103-110. [[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-2-2597&id=446599)] [[bibtex](doc/celes.bib)]
 
 ### Features
 CELES is written in MATLAB in order to provide a user-friendly, fully scriptable interface to configure and run simulations. Its prominent features are
