@@ -37,36 +37,14 @@ The second-order gradient descent is implemented by the quasi-Newton method here
 * Stochastic gradient descent (SGD) with angular spectrum theory: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
 
 ### Optmization for 3D holograms
+The flexibility of the optimization frameworks also brings with it a diversity of pipelines for the hologram synthesis of 3D objects. Many diffractive propagation models are applicable for volumetric optimization. Here, for a better illustration of different optimization pipelines, we unify them into the band-limited ASM.
 
-In MATLAB, remember to add CELES to your search path with
-```matlab
-addpath(genpath('path/to/celes/src'));
-```
+* The superposition method:
+   [[alternating projections (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main9_Superposition3D_Angularspectrum_CH.m)], [[alternating projections (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main10_Superposition3D_Angularspectrum_POH.m)], [[SGD (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main8_SGD_Superposition3D_Angularspectrum_CH.m)], [[SGD (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main7_SGD_Superposition3D_Angularspectrum_POH.m)], [[quasi-Newton method (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main6_quasiNewton_superposition3D_Angularspectrum_CH.m)], [[quasi-Newton method (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main5_quasiNewton_superposition3D_Angularspectrum_POH.m)]
+* The global method: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
+* The sequential method: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
 
-As an example input you can execute the `CELES_MAIN` script. Comments in the script explain how the simulation parameters are specified. Alternatively, you can use the `CELES_model_wizard` app, a GUI that helps in the specification of the simulation parameters.
-
-For more information, please refer to the
-[documentation](https://disordered-photonics.github.io/celes/).
-
-### Contributing
-If you add any improvement or implement new features to the software please consider contributing them following the [GitHub flow](https://guides.github.com/introduction/flow/)
-
-1. Fork the project
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push the branch: `git push origin my-new-feature`
-5. Submit a [Pull request](https://github.com/disordered-photonics/celes/pulls)
+### Questions and feedbacks
 
 If you have questions, bug reports or feature requests, please use the [Issues](https://github.com/disordered-photonics/celes/issues) section to report them.
 
-### License
-This software is published under the BSD 3-clause license, please read the [LICENSE](LICENSE) file for more information.
-
-### Credits
-CELES was initiated by Amos Egel, Lorenzo Pattelli and Giacomo Mazzamuto. In addition, Alan Zhan and Taylor Fryett have contributed code to the project. 
-We thank Yasuhiko Okada and Aso Rahimzadegan for valuable comments and bug reports.
-
-CELES uses the following codes from other programmers:
-* [polarplot3d](https://it.mathworks.com/matlabcentral/fileexchange/13200-3d-polar-plot/content/polarplot3d.m) from Kenn Gerard
-* [wigner3j](https://it.mathworks.com/matlabcentral/fileexchange/20619-wigner3j-symbol) from Kobi Kraus
-* Iterative solvers based on the [Templates for the Solution of Linear Systems](http://it.mathworks.com/matlabcentral/fileexchange/2158-templates-for-the-solution-of-linear-systems)
