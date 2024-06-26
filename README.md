@@ -22,9 +22,9 @@ Alternative projections can be achieved by a pair of elementary projections repe
 
 1. Gerchberg-Saxton (GS) algorithm:[[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main1_GS_2D_FFT_POH.m)]
 2. Iterative Fourier-transform algorithm (IFTA):
-  -[[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main2_IFTA_2D_FFT_POH.m)]
-  -[[2D optmization with signal windows (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main3_IFTA_2D_signalwindow_FFT_2D_POH.m)]
-  -[[2D optmization with soft encoding (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main4_IFTA_2D_soft_encoding_FFT_2D_POH.m)]
+   *[[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main2_IFTA_2D_FFT_POH.m)]
+   *[[2D optmization with signal windows (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main3_IFTA_2D_signalwindow_FFT_2D_POH.m)]
+   *[[2D optmization with soft encoding (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main4_IFTA_2D_soft_encoding_FFT_2D_POH.m)]
 3. Iterative algorithm with angular spectrum theory:
   -[2D optmization [complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main5_IFTA_2D_Angularspectrum_CH.m)]
   -[2D optmization [phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main6_IFTA_2D_Angularspectrum_POH.m)].
