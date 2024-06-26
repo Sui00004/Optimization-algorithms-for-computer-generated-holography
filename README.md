@@ -62,8 +62,20 @@ The flexibility of the optimization frameworks also brings with it a diversity o
    * Quasi-Newton method:
      - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main6_quasiNewton_superposition3D_Angularspectrum_CH.m)]
      - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main5_quasiNewton_superposition3D_Angularspectrum_POH.m)]
-* The global method: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
-* The sequential method: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
+2. The global method:
+   * Alternating projections:
+     - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main11_Global3D_Angularspectrum_CH.m)]
+     - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main12_Global3D_Angularspectrum_POH.m)]
+   * Stochastic gradient descent:
+     - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main6_SGD_Global3D_angularspectrum_CH.m)]
+     - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main5_SGD_Global3D_angularspectrum_POH.m)]
+   * Quasi-Newton method:
+     - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main8_quasiNewton_global3D_Angularspectrum_CH.m)]
+     - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main7_quasiNewton_Global3D_Angularspectrum_POH.m)]  
+3. The sequential method:
+   * Alternating projections:
+     - [[complex hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main7_Sequential3D_Angularspectrum_CH.m)]
+     - [[phase-only hologram](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main8_Sequential3D_Angularspectrum_POH.m)]
 
 ### Questions and feedbacks
 
