@@ -19,14 +19,14 @@ Codes to achive hologram sythesis with these optmization frameworks is provided 
 
 The algorithms to realize functional hologram sythesis using different frameworks are writen in MATLAB. 
 
-### Alternative projections
+### Alternating projections
 Alternative projections can be achieved by a pair of elementary projections repeatedly occurring in the optimization, which construct an iterative computation loop. Specially for CGH, alternating projections are applied to two enclosed sets associated with potential object solutions and potential hologram solutions. 
 
 * Gerchberg-Saxton (GS) algorithm: [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main1_GS_2D_FFT_POH.m)]
 * Iterative Fourier-transform algorithm (IFTA): [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main2_IFTA_2D_FFT_POH.m)], [[2D optmization with signal windows (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main3_IFTA_2D_signalwindow_FFT_2D_POH.m)], [[2D optmization with soft encoding (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main4_IFTA_2D_soft_encoding_FFT_2D_POH.m)].
 * Iterative algorithm for angular spectrum theory:  [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main5_IFTA_2D_Angularspectrum_CH.m)], [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main6_IFTA_2D_Angularspectrum_POH.m)].
 
-### Stochastic gradient descent (first-order)
+### Stochastic gradient descent
 In order to run CELES, the following software (in addition to MATLAB) should be installed on your system:
 * the [CUDA toolkit](https://developer.nvidia.com/cuda-downloads) matching the `ToolkitVersion` specified when running `gpuDevice` in MATLAB.
 * a [C++ compiler](https://it.mathworks.com/support/compilers.html) which is supported by MATLAB in combination with the given CUDA version.
@@ -37,7 +37,7 @@ CELES has been tested on Linux using the built-in gcc compiler and on Windows us
 
 In order to fully take advantage of preconditioned iterative solvers we recommend running CELES on a workstation with sufficient RAM (~several 10GB for 10000+ scattering particles).
 
-### Getting started
+### Quasi-Newton method
 CELES can be installed via cloning the GitHub repository with
 ```bash
 git clone https://github.com/disordered-photonics/celes.git
