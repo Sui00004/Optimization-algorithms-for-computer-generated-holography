@@ -17,7 +17,7 @@ Codes to achive hologram sythesis with these optmization frameworks is provided 
 
 > Sui X, He Z, Chu D, & Cao L. Non-convex Optimization for Inverse Problem Solving in Computer-generated Holography. Light: Science & Applications, 29(2), 2597-2612 (2024) pp. 103-110. [[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-2-2597&id=446599)] [[bibtex](Inverse_CGH.bib)]
 
-The algorithms to realize functional hologram sythesis using different frameworks are writen in MATLAB. 
+The algorithms to realize functional hologram sythesis using different frameworks are written in MATLAB. 
 
 ### Alternating projections
 Alternative projections can be achieved by a pair of elementary projections repeatedly occurring in the optimization, which construct an iterative computation loop. Specially for CGH, alternating projections are applied to two enclosed sets associated with potential object solutions and potential hologram solutions. 
@@ -32,13 +32,7 @@ The inverse problem of hologram synthesis in CGH can also be cast as the optimiz
 * Stochastic gradient descent (SGD) with single Fourier-transform propagation: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main2_SGD_2D_FFT_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main1_SGD_2D_FFT_POH.m)] 
 * Stochastic gradient descent (SGD) with angular spectrum theory: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main4_SGD_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main3_SGD_2D_Angularspectrum_POH.m)]
 
-
-
-CELES has been tested on Linux using the built-in gcc compiler and on Windows using MATLAB R2017b + CUDA 8 + MS Visual Studio 2015.
-
-In order to fully take advantage of preconditioned iterative solvers we recommend running CELES on a workstation with sufficient RAM (~several 10GB for 10000+ scattering particles).
-
-### Quasi-Newton method
+### Second-order gradient descent
 CELES can be installed via cloning the GitHub repository with
 ```bash
 git clone https://github.com/disordered-photonics/celes.git
