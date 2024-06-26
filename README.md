@@ -26,7 +26,7 @@ Alternative projections can be achieved by a pair of elementary projections repe
 * Iterative Fourier-transform algorithm (IFTA): [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main2_IFTA_2D_FFT_POH.m)], [[2D optmization with signal windows (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main3_IFTA_2D_signalwindow_FFT_2D_POH.m)], [[2D optmization with soft encoding (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main4_IFTA_2D_soft_encoding_FFT_2D_POH.m)].
 * Iterative algorithm for angular spectrum theory:  [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main5_IFTA_2D_Angularspectrum_CH.m)], [[2D optmization (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Alternative%20projection/Main6_IFTA_2D_Angularspectrum_POH.m)].
 
-### Second-order gradient descent (implemented by the quasi-Newton method)
+### Stochastic gradient descent (first-order)
 In order to run CELES, the following software (in addition to MATLAB) should be installed on your system:
 * the [CUDA toolkit](https://developer.nvidia.com/cuda-downloads) matching the `ToolkitVersion` specified when running `gpuDevice` in MATLAB.
 * a [C++ compiler](https://it.mathworks.com/support/compilers.html) which is supported by MATLAB in combination with the given CUDA version.
