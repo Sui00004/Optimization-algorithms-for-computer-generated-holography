@@ -5,7 +5,9 @@
 ## CGH Optimization
 > Non-convex optimization algorithms to synthesize computer-generated holograms
 
-Computer-generated holography (CGH) involves computationally generating a hologram and optically reconstructing an object's wavefront, which provides an approach to digitally modulate a volumetric wavefront. Computer-generated holograms can be encoded on various types of holographic media, including diffractive optical elements (DOEs), metasurfaces, and spatial light modulators (SLMs).
+Computer-generated holography (CGH) involves computationally generating a hologram and optically reconstructing an object's wavefront, which provides an approach to digitally modulate a volumetric wavefront. 
+
+Computer-generated holograms can be encoded on various types of holographic media, including diffractive optical elements (DOEs), metasurfaces, and spatial light modulators (SLMs). Even so, the algorithms for hologram synthesis can be universally applied. Existing optimization frameworks applied to CGH can be conlcluded with following categories: alternative projections, the first-order gradient descent, and the second-order gradient descent.
 
 <p align="center">
 <img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2_Frameworks.jpg", height="230">
