@@ -3,11 +3,9 @@
 </p>
 
 ## CGH Optimization
-> CUDA-acceleratd Electromagnetic scattering for Large Ensembles of Spheres
+> Non-convex optimization algorithms to synthesize computer-generated holograms
 
-CELES (latin for 'fast ship') is a MATLAB/CUDA MEX implementation of the multi-sphere T-matrix method (also known as Generalized Multiparticle Mie method).
-
-The main aim of the software is to rigorously solve electrodynamic problems comprising extremely large numbers of spherical scatterers. As such, it can be applied to study light propagation in macroscopic aggregates of particles in order to derive their bulk transport properties.
+Computer-generated holography (CGH) involves computationally generating a hologram and optically reconstructing an object's wavefront, which provides an approach to digitally modulate a volumetric wavefront. Computer-generated holograms can be encoded on various types of holographic media, including diffractive optical elements (DOEs), metasurfaces, and spatial light modulators (SLMs).
 
 <p align="center">
 <img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2_Frameworks.jpg", height="230">
