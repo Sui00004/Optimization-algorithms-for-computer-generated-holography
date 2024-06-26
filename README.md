@@ -13,11 +13,9 @@ Computer-generated holograms can be encoded on various types of holographic medi
 <img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2_Frameworks.jpg", height="230">
 </p>
 
-Codes to achive hologram sythesis with these optmization frameworks is provided here. If you use any of them, please cite it as follows:
+Codes to achive hologram sythesis with these optmization frameworks is provided here. The algorithms to realize functional hologram sythesis using different frameworks are written in MATLAB. If you use any of these codes, please cite it as follows:
 
 > Sui X, He Z, Chu D, & Cao L. Non-convex Optimization for Inverse Problem Solving in Computer-generated Holography. Light: Science & Applications, 29(2), 2597-2612 (2024) pp. 103-110. [[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-2-2597&id=446599)] [[bibtex](Inverse_CGH.bib)]
-
-The algorithms to realize functional hologram sythesis using different frameworks are written in MATLAB. 
 
 ### Alternating projections
 Alternative projections can be achieved by a pair of elementary projections repeatedly occurring in the optimization, which construct an iterative computation loop. Specially for CGH, alternating projections are applied to two enclosed sets associated with potential object solutions and potential hologram solutions. 
@@ -33,11 +31,12 @@ The inverse problem of hologram synthesis in CGH can also be cast as the optimiz
 * Stochastic gradient descent (SGD) with angular spectrum theory: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main4_SGD_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/SGD/Main3_SGD_2D_Angularspectrum_POH.m)]
 
 ### Second-order gradient descent
-CELES can be installed via cloning the GitHub repository with
-```bash
-git clone https://github.com/disordered-photonics/celes.git
-```
-or by downloading and extracting one of the [releases](https://github.com/disordered-photonics/celes/releases). Please note that the releases do not always represent the most up to date version (see the [CHANGELOG](CHANGELOG.md) for further details).
+The second-order gradient descent is implemented by the quasi-Newton method here, which minimizes the loss function by constructing and storing a series of matrices that approximate the Hessian or inverse Hessian matrix of the loss function. 
+
+* The quasi-Newton method with single Fourier-transform propagation: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main2_quasiNewton_2D_FFT_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main1_quasiNewton_2D_FFT_POH.m)] 
+* Stochastic gradient descent (SGD) with angular spectrum theory: [[2D optmization (complex hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main4_quasiNewton_2D_Angularspectrum_CH.m)], [[2D optmizatio (phase-only hologram)](https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/Quasi-Newton/Main3_quasiNewton_2D_Angularspectrum_POH.m)]
+
+### Optmization for 3D holograms
 
 In MATLAB, remember to add CELES to your search path with
 ```matlab
