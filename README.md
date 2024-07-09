@@ -52,7 +52,7 @@ The second-order gradient descent is implemented by the quasi-Newton method here
 In our demonstration, the 512×512 holograms are equally computed on a PC with an Intel Core i9-9900K 3.6 GHz CPU and 32.0 GB of RAM, and an NVIDIA GeForce RTX 2080Ti GPU. Two diffractive propagation methods including the FFT and ASM are compared, where the propagation distance of ASM is 50 mm. 
 
 <p align="center">
-<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2D_optimization.jpg", height="300">
+<img src="https://github.com/Sui00004/Optimization-algorithms-for-computer-generated-holography/blob/main/2D_optimization.jpg", height="280">
 </p>
 
 ### Optimization for 3D holograms
