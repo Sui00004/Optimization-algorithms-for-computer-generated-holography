@@ -15,7 +15,7 @@ Computer-generated holograms can be encoded on various types of holographic medi
 
 Codes to achieve hologram synthesis with these optimization frameworks is provided here. The algorithms to realize functional hologram synthesis using different frameworks are written in MATLAB. If you use any of these codes, please cite it as follows:
 
-> Sui X, He Z, Chu D, & Cao L. Non-convex Optimization for Inverse Problem Solving in Computer-generated Holography. Light: Science & Applications, 29(2), 2597-2612 (2024) pp. 103-110. [[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-2-2597&id=446599)] [[bibtex](Inverse_CGH.bib)]
+> Sui X, He Z, Chu D, & Cao L. Non-convex Optimization for Inverse Problem Solving in Computer-generated Holography. Light: Science & Applications, 13(158), 1-23 (2024) [[link](https://www.nature.com/articles/s41377-024-01446-w)] [[bibtex](Inverse_CGH.bib)]
 
 ### Alternating projections
 Alternative projections can be achieved by a pair of elementary projections repeatedly occurring in the optimization, which construct an iterative computation loop. Specially for CGH, alternating projections are applied to two enclosed sets associated with potential object solutions and potential hologram solutions. 
